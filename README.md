@@ -1,12 +1,34 @@
-# React + Vite
+🌦️ The Weather App — Built with React.js
+A simple, fast, and beautiful Weather Application built using React.js.
+It displays real-time weather information for any city using a weather API, with dynamic icons, background changes, and optional voice weather reports.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+🔍 Core Features
+Search weather by city name
+Real-time temperature, humidity, wind speed, and more
+Weather icons based on conditions
+Auto-updating background images based on weather
+Supports voice weather report using SpeechSynthesis
+Fully responsive UI (mobile-friendly)
 
-Currently, two official plugins are available:
+🎨 UI Features
+Clean and modern design
+Dynamic backgrounds (Rainy, Sunny, Cloudy, Snow etc.)
+Animated weather icons
+Error popup when city not found
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚙️ Technical Features
+Built with React.js
+Uses OpenWeather API
+State management using React Hooks
+Custom reusable components
+API error handling
+Optional voice-based output
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+React.js
+JavaScript (ES6+)
+CSS / Material UI (if used)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+OpenWeatherMap API
+SpeechSynthesis (Browser API)
